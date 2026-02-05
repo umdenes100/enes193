@@ -70,4 +70,4 @@ class Tank:
                 raise OSError('Out of range')
             raise ex
 
-Tank = Tank()
+tank = Tank()
