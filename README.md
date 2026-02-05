@@ -1,4 +1,10 @@
-# enes193
+# Enes193 Library
+
+## Package Download and Installation 
+In this section, you will download the package and upload it to your microcontroller through Thonny IDE. 
+1) To download the package, click the green  **<> Code** drop down at the top of the page. Then click **Download ZIP**.
+2) Open Thonny and navigate to **Tools > Manage packages...**
+3) Using **Install from local file**, find the file on your computer and upload it to your device.
 
 ## Usage
 `from enes193.tank import tank`
