@@ -1,4 +1,4 @@
-from tank import Tank
+from enes193.enes193.tank import Tank
 import time
 
 # Forward (0 < PWM < 1023)
