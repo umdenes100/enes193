@@ -31,7 +31,7 @@ To use the package, you have to direct the compiler to include it in your code. 
 ### Enes193.begin()
 `Enes193.begin(team_name: str, team_type: str, aruco_id: int, room_num: int)`
 
-**Example: **`Enes193.begin("LTFs", "FIRE", 105, 1116)`
+**Example:** `Enes193.begin("LTFs", "FIRE", 105, 1116)`
 
 Establishes communication with the Vision System and allows for the use of all other enes193 commands
 - team_name: Name of the team that will show up in the Vision System
@@ -63,7 +63,7 @@ Returns true if the Acebott is connected to the Vision System, false otherwise. 
 ### Enes193.print()
 `Enes193.print(message: str)`
 
-**Example: **`Enes193.print("On our way to mission site.")`
+**Example:** `Enes193.print("On our way to mission site.")`
 
 Sends a message to the vision system with a new line. Any messages sent after will be printed in a new line below the ' println'
 
@@ -74,7 +74,7 @@ Sends value for a mission objective.
 - type: what type of mission call you are sending
 - message: mission value associated with the mission type.
 
-All the definitions defined in the Enes100 package correlate to an integer. To save you the trouble, you can call the uppercase definition like 'LENGTH' for Crash Site teams or 'MATERIAL_TYPE' for Material Identification teams.
+All the definitions defined in the Enes100 package correlate to an integer. To save you the trouble, you can call the uppercase definition like 'TOPOGRAPHY' for Fire teams or 'MATERIAL_TYPE' for Material Identification teams.
 
 *For some mission calls below, the value i will denote an integer value. In that case, i should be an int NOT a str.
 
