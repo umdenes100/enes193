@@ -30,11 +30,12 @@ To use the package, you have to direct the compiler to include it in your code. 
 ### Functions
 ### Enes193.begin()
 `Enes193.begin(team_name: str, team_type: str, aruco_id: int, room_num: int)`
+
 **Example:**`Enes193.begin("LTFs", "FIRE", 105, 1116)`
-Establishes communication with the Vision System and allows for the use of all other enes100 commands
+Establishes communication with the Vision System and allows for the use of all other enes193 commands
 - team_name: Name of the team that will show up in the Vision System
 - team_type: Type of mission your team is running.
-	- Valid Mission Types: `'CRASH_SITE'`, `'DATA'`, `'MATERIAL'`, `'FIRE'`, `'WATER'`, `'SEED'`
+	- Valid Mission Types: `'DATA'`, `'HYDROGEN'` `'MATERIAL'`, `'FIRE'`, `'WATER'`, `'SEED'`
 - aruco_id: ID of your Aruco Marker
 - room_num: The number of the classroom in which you are located (1116 or 1120)
 
@@ -56,10 +57,12 @@ Enes193.get variants will make sure you get the latest data available to you abo
 ### Enes193.is_connected()
 `Enes193.is_connected()`
 
-Returns true if the ESP8266 is connected to the Vision System, false otherwise. Note: enes100.begin will not return until this function is true.
+Returns true if the Acebott is connected to the Vision System, false otherwise. Note: Enes193.begin will not return until this function is true.
 
 ### Enes193.print()
 `Enes193.print(message: str)`
+
+**Example:**`Enes193.print("On our way to mission site.")`
 
 Sends a message to the vision system with a new line. Any messages sent after will be printed in a new line below the ' println'
 
